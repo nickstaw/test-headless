@@ -72,7 +72,7 @@ export default function Component() {
             <CTA
               Button={() => (
                 <Button href="/posts">
-                  Get Started <FaArrowRight style={{ marginLeft: `1rem` }} />
+                  Get Started Nick <FaArrowRight style={{ marginLeft: `1rem` }} />
                 </Button>
               )}
             >
