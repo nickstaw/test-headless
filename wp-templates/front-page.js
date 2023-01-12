@@ -1,5 +1,6 @@
-import * as MENUS from 'constants/menus';
 
+<<<<<<< HEAD
+=======
 import { useQuery, gql } from '@apollo/client';
 import { FaArrowRight } from 'react-icons/fa';
 import styles from 'styles/pages/_Home.module.scss';
@@ -72,7 +73,7 @@ export default function Component() {
             <CTA
               Button={() => (
                 <Button href="/posts">
-                  Get Started Nick <FaArrowRight style={{ marginLeft: `1rem` }} />
+                  Get Started <FaArrowRight style={{ marginLeft: `1rem` }} />
                 </Button>
               )}
             >
@@ -161,3 +162,4 @@ Component.query = gql`
     }
   }
 `;
+>>>>>>> parent of 8c88e81 (Changed CTA button text on home page)
