@@ -53,7 +53,7 @@ export default function Component() {
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
-              Welcome to your Blueprint NJW
+              Welcome to your Blueprint NJW updated
             </Heading>
             <p className={styles.description}>
               Achieve unprecedented performance with modern frameworks and the
